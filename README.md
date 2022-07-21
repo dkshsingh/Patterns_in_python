@@ -44,7 +44,7 @@
                  print("*", end=" ")
             print()        
 ### 4.
-       * * * * 8
+       * * * * *
        * * * * 
        * * *
        * *
@@ -57,9 +57,20 @@
            for j in range(0,i):
                print("*",end="")
            print()
+### 5.
+      * * * * *
+       * * * *
+        * * *
+         * *
+          *
       
-      
-      
-      
-      
+## code:
+        n=int(input("enter the no of rows:"))
+        for i in range(1,n+1):
+            for j in range(1,n+1):
+                if j>=i:
+                    print("*",end='')
+                else:
+                    print(" ",end='')
+             print()  
       
